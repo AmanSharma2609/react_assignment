@@ -4,6 +4,7 @@ import {ThemeProvider} from '@material-ui/styles';
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom'
 import { createMuiTheme } from "@material-ui/core/styles";
 import './App.css';
+
 import Header from  '../src/components/header & footer/header'
 import NotFound from './components/notFound'
 import Footer from './components/header & footer/footer'
