@@ -136,7 +136,7 @@ const useStyles = makeStyles(theme => ({
             <div className={classes.root}>
             <AppBar className={classes.appBarStyle} color='inherit'>
             <Toolbar color='inherit'>
-            <div><img src={logo} width='115'></img></div>
+            <div onClick={() => props.history.push('/')}><img src={logo} width='115'></img></div>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
             <div className={`${classes.buttonMargin} d-flex`}><CustomButton name='ANGULAR JS'  /></div>

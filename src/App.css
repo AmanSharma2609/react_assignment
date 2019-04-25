@@ -1,5 +1,7 @@
 ::-webkit-scrollbar {display:none;}
-html {overflow: -moz-scrollbars-none;}
+html {  overflow: -moz-scrollbars-none;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;}
 .home_container{
   height: 90vh;
   overflow-y: auto;
@@ -77,4 +79,14 @@ html {overflow: -moz-scrollbars-none;}
 .medium_font_Size{
   font-size: 24px;
   font-weight: 600;
+}
+.loader{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  height: 350px;
+  width:350px;
 }

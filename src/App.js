@@ -14,19 +14,20 @@ const CardsDetail = lazy(() => import('./components/cardsDetail'))
 
 
 
+
 const theme = createMuiTheme()
 
 function App() {
   return (
     <BrowserRouter>
     <div>
-    <Suspense fallback={<div>Loading...</div>}>
     <ThemeProvider theme={theme} >
     <Header />
     </ThemeProvider>
+    <Suspense fallback={<div></div>}>
       <Switch >
         <Route exact path="/" render={()=> <Home />}/>
-        <Route exact path="/Candidate" render={()=> <CardsDetail />}/>
+        <Route exact path="/CardsDetail" render={()=> <CardsDetail />}/>
         <Route render={() => <NotFound />} />
       </Switch>
       <Footer />
