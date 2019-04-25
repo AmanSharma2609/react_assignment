@@ -17,7 +17,7 @@ function CardsDetail(props){
     }, [])
     return(
         <div className='cards_detail_container'>
-        {loading ?<Loading /> :  <Container className='h-100 w-100 d-flex justify-content-center align-items-center '>
+        {loading ?<Loading /> :  <Container className='h-100 w-100 d-flex justify-content-center align-items-center mt-5'>
             <Row className='d-flex justify-content-center align-items-center w-100 mt-2 mb-2'>
                 <Col xs={12} sm={12} md={6} lg={5} xl={5} className='d-flex justify-content-center align-items-center'><iframe width="350" height="350" src={url} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
                 <Col xs={12} sm={12} md={6} lg={5} xl={5} className='d-flex content justify-content-center align-items-start'>
