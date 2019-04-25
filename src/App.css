@@ -7,6 +7,11 @@ html {  overflow: -moz-scrollbars-none;
   overflow-y: auto;
   margin-top: 65px;
 }
+.cards_detail_container{
+  height: 80vh;
+  overflow-y: auto;
+  margin-top: 65px;
+}
 .home_middle_container{
   min-height: 90%;
   width: 100%;
@@ -89,4 +94,5 @@ html {  overflow: -moz-scrollbars-none;
 .content{
   height: 350px;
   width:350px;
+  word-break: break-all;
 }

@@ -17,11 +17,14 @@ const useStyles = makeStyles(theme => ({
       width: '100%',
       position: 'fixed',
       top:'0px',
+      height:'65px',
+      zIndex:'5'
     },
     appBarStyle:{
       display: 'flex',
       justifyContent: 'center',
       height:'65px',
+      zIndex:'5',
       paddingLeft: '10%',
       paddingRight: '10%'
     },
